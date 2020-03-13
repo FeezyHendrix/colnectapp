@@ -55,7 +55,7 @@ class _MyHomePageState extends State<MyHomePage> {
       itemCount: _messages['messages'].length,
       itemBuilder: (BuildContext context, i) {
         // print(i);/
-        if (i.isOdd) return Divider();
+        // if (i.isOdd) return Divider();
 
         final item = _messages['messages'][i];
         print(item);
